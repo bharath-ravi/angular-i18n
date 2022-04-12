@@ -1,4 +1,5 @@
 import { Component, VERSION } from '@angular/core';
+import { TranslateService } from './translate.service';
 
 @Component({
   selector: 'my-app',
@@ -6,5 +7,8 @@ import { Component, VERSION } from '@angular/core';
   styleUrls: [ './app.component.css' ]
 })
 export class AppComponent  {
-  name = 'Angular ' + VERSION.major;
+  namee = 'Angular ';
+  constructor(public translate: TranslateService) {
+    this.translate.use('en');
+  }
 }
