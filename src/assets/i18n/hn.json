@@ -1,7 +1,9 @@
 {
-  "PRODUCT_NAME": "बाइक बीमा",
-  "BIKE_DETAILS": {
-    "HEADDER": "",
-    "TITLE": ""
+  "EXAMPLE":"I18N WITH PARAMS",
+  "WELCOME": "Welcome {{username}}",
+  
+  "COURSE_DETAILS": {
+    "HEADDER": "Angular Concepts",
+    "TITLE": "For learning {{name}} {{version}} LOCALIZATION",
   }
 }

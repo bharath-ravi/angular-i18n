@@ -1,7 +1,8 @@
 {
-  "PRODUCT_NAME": "Bike Insurance {{name}}",
-  "BIKE_DETAILS": {
-    "HEADDER": "",
-    "TITLE": ""
+  "EXAMPLE": "I18N WITH PARAMS",
+  "WELCOME": "Welcome {{username}}",
+  "HEADDER": "Angular Concepts",
+  "COURSE_DETAILS": {
+    "TITLE": "For learning {{name}} {{version}} LOCALIZATION"
   }
 }

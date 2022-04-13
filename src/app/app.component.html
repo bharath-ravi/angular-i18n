@@ -1,1 +1,9 @@
-<h1>Welcome to {{ 'PRODUCT_NAME' | translate:{name:namee} }}</h1>
+<h1>{{ 'EXAMPLE' | translate }}</h1>
+
+<h3>{{ 'WELCOME' | translate: { username: userName } }}</h3>
+<h4>{{ 'HEADDER' | translate }}</h4>
+<h5>
+  {{ 'COURSE_DETAILS' | translate: { name: namee }:{ version: version } }}
+</h5>
+<button type="submit" (click)="changeLanguage('en')">English</button>
+<button type="submit" (click)="changeLanguage('hn')">Hindi</button>
